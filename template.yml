@@ -1,0 +1,49 @@
+jtex: v1
+title: Physical Review Journals
+description: Template for Physical Review Journals
+version: 1.0.0
+license: MIT
+source: https://journals.aps.org/prl/authors
+thumbnail: ./thumbnail.png
+authors:
+  - name: Frank Zimmer
+    website: https://www.frankzimmer.net
+    affiliations:
+      - no
+tags:
+  - paper
+parts:
+  - id: abstract
+    required: true
+    description: >
+      A good abstract will begin with a short description of the problem being
+      addressed, briefly describe the new data or analyses, then briefly states
+      the main conclusion(s) and how they are supported and uncertainties.
+doc:
+  - id: authors
+    required: true
+  - id: title
+    required: true
+  - id: bibliography
+options:
+  - id: draft
+    type: boolean
+    description: Mark the document as draft
+  - id: thanks
+    type: string
+    description: A footnote to the article title
+files:
+  - template.tex
+  - revtex4-2.cls
+packages:
+  - amsfonts
+  - amsmath
+  - amssymb
+  - hyperref
+  - lineno
+  - natbib
+  - orcidlink
+  - revsymb4-2
+  - textcase
+  - url
+myst: v1

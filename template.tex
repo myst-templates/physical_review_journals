@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copy in your template with your latex document!
+
+[# if options.draft #]
+\documentclass[preprint]{revtex4-2}
+[# else #]
+\documentclass{revtex4-2}
+[# endif #]
+
+% You should have an imports section
+\usepackage{orcidlink}
+[- IMPORTS -]
+
+\begin{document}
+\title{[-doc.title-]}
+[#- if options.thanks -#]
+\thanks{[-options.thanks-]}
+[#- endif -#]
+
+[#- for author in doc.authors -#]
+\author{[-- author.name --]
+[#- if author.orcid -#]
+\orcidlink{[-author.orcid-]}
+[#- endif -#]
+}
+[#- if author.email -#]
+\email{[-author.email-]}
+[#- endif -#]
+
+[#- if author.affiliations -#]
+[#- for affiliation in author.affiliations -#]
+\affiliation{[-- affiliation.value --]}
+[#- endfor -#]
+[#- endif -#]
+[#- endfor -#]
+
+
+
+
+\maketitle
+
+[# if parts.abstract #]
+\begin{abstract}
+[-parts.abstract-]
+\end{abstract}
+[# endif #]
+
+[-CONTENT-]
+
+[# if doc.bibliography #]
+\bibliography{[- doc.bibliography | join(", ") -]}
+[# endif #]
+
+\end{document}
