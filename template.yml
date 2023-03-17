@@ -7,9 +7,9 @@ source: https://journals.aps.org/prl/authors
 thumbnail: ./thumbnail.png
 authors:
   - name: Frank Zimmer
-    website: https://www.frankzimmer.net
+    website: https://example.com
     affiliations:
-      - no
+      - Future of Science Publishing
 tags:
   - paper
 parts:
@@ -24,14 +24,94 @@ doc:
     required: true
   - id: title
     required: true
+  - id: numbering
+    required: false
   - id: bibliography
 options:
   - id: draft
     type: boolean
-    description: Mark the document as draft
-  - id: thanks
+    required: false
+    description: Mark the document as draft (preprint)
+  - id: linenumbers
+    type: boolean
+    required: false
+    description: Number lines (requires lineno.sty)
+  - id: reprint
+    type: boolean
+    required: false
+    description: Closely approximate a given journal’s style. Can be either single or two-column formatting depending on the journal.
+  - id: footnote_title
     type: string
+    required: false
     description: A footnote to the article title
+  - id: styling
+    type: choice
+    description: Journal styling ":" American Physical Society (aps), American Institute of Physics (aip), American Association of Physicists in Medicine (aapm), Society of Rheology (sor)
+    default: aps
+    choices:
+      - aps
+      - aip
+      - aapm
+      - sor
+  - id: aps_journal_type
+    required: false
+    type: choice
+    description: The types of American Physical Society journals
+    default: pra
+    choices:
+      - prl
+      - pra
+      - prb
+      - prc
+      - prd
+      - pre
+      - prab
+      - prper
+      - prx
+      - prapplied
+      - prfluids
+      - prmaterials
+      - physrev
+      - rmp
+  - id: aip_journal_type
+    type: choice
+    description: The types of American Institute of Physics journals
+    default: apl
+    choices:
+      - apl
+      - bmf
+      - cha
+      - jap
+      - jcp
+      - jmp
+      - rse
+      - pof
+      - pop 
+      - rsi
+      - apm
+      - adv
+      - sd
+  - id: aapm_journal_type
+    type: choice
+    description: The types of American Association of Physicists in Medicine journals
+    default: mph
+    choices:
+      - mph
+  - id: sor_journal_type
+    type: choice
+    description: The types of Society of Rheology journals
+    default: jor
+    choices:
+      - jor
+  - id: formatting
+    required: false
+    type: choice
+    description: Type of column formatting (one- or two-column article).
+    default: onecolumn
+    choices:
+      - onecolumn
+      - twocolumn
+       
 files:
   - template.tex
   - revtex4-2.cls
