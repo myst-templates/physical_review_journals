@@ -3,13 +3,13 @@ title: Physical Review Journals
 description: Template for Physical Review Journals
 version: 1.0.0
 license: MIT
-source: https://journals.aps.org/prl/authors
+source: https://journals.aps.org/
 thumbnail: ./thumbnail.png
 authors:
   - name: Frank Zimmer
-    website: https://example.com
+    website: https://www.frankzimmer.net
     affiliations:
-      - Future of Science Publishing
+      - no
 tags:
   - paper
 parts:
@@ -24,8 +24,6 @@ doc:
     required: true
   - id: title
     required: true
-  - id: numbering
-    required: false
   - id: bibliography
 options:
   - id: draft
