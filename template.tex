@@ -25,9 +25,10 @@
     ,[-options.formatting-]
     [# endif -#]
     [#- if options.draft #],preprint
-    [# else #]
+    [# endif -#]
     [#- if options.reprint #],reprint
     [# endif -#]
+    [#- if options.preprint #],preprintnumbers
     [# endif -#]
     [#- if options.linenumbers #]
     ,linenumbers
@@ -40,6 +41,9 @@
 [- IMPORTS -]
 
 \begin{document}
+[#- if options.preprint #]
+\preprint{[-options.preprint-]}
+[# endif -#]
 \title{[-doc.title-]}
 [#- if options.footnote_title #]
 \thanks{[-options.footnote_title-]}

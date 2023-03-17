@@ -31,7 +31,14 @@ options:
   - id: draft
     type: boolean
     required: false
-    description: Mark the document as draft (preprint)
+    description: Mark the document as draft.
+  - id: preprint
+    type: string
+    max_chars: 20
+    required: false
+    description: >-
+      Institutional report numbers can be specified using this (see prepint
+      revtex4-2 documentation).
   - id: linenumbers
     type: boolean
     required: false
