@@ -33,6 +33,31 @@
     [#- if options.linenumbers #]
     ,linenumbers
     [# endif -#]
+    [#- if options.superscriptaddress #]
+    ,superscriptaddress
+    [# endif -#]
+    [#- if options.groupedaddress #]
+    ,groupedaddress
+    [# endif -#]
+    [#- if options.unsortedaddress #]
+    ,unsortedaddress
+    [# endif -#]
+    [#- if options.runinaddress #]
+    ,runinaddress
+    [# endif -#]
+    [#- if options.frontmatterverbose #]
+    ,frontmatterverbose
+    [# endif -#]
+    [#- if options.footinbib #]
+    ,footinbib
+    [# else #]
+    ,nofootinbib
+    [# endif -#]
+    [#- if options.bibnotes #]
+    ,bibnotes
+    [# else #]
+    ,nobibnotes
+    [# endif -#]
     [#- if doc.keywords #],showkeys[# endif -#]
 ]{revtex4-2}
 
