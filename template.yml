@@ -79,14 +79,37 @@ options:
   - id: footinbib
     type: boolean
     required: false
-    default: true
+    default: false
     description: >-
       The footnote text can either appear at the bottom of a page or as part of
       the bibliography. This option results it in only showing up in the
-      bibliography.
+      bibliography. This can be used to override  the default behavior of the
+      journal.
+  - id: nofootinbib
+    type: boolean
+    required: false
+    default: false
+    description: >-
+      The footnote text can either appear at the bottom of a page or as part of
+      the bibliography. This option results it in only showing up on the bottom
+      of the page. This can be used to override  the default behavior of the
+      journal.
   - id: bibnotes
     type: boolean
     required: false
+    default: false
+    description: >-
+      Specifies whether additional author information such as email or homepage
+      are put on the first page or at the st of the bibliography. For instance,
+      the prb option puts all such footnotes at the start of the bibliography
+      while the prl journal styles displays them on the first page. One can
+      override a journal style’s default behavior by specifying explicitly the
+      class option bibnotes (puts the footnotes at the start of the
+      bibliography) or nobibnotes (puts them on the first page).
+  - id: nobibnotes
+    type: boolean
+    required: false
+    default: false
     description: >-
       Specifies whether additional author information such as email or homepage
       are put on the first page or at the st of the bibliography. For instance,

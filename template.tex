@@ -50,12 +50,14 @@
     [# endif -#]
     [#- if options.footinbib #]
     ,footinbib
-    [# else #]
+    [# endif -#]
+    [#- if options.nofootinbib #]
     ,nofootinbib
     [# endif -#]
     [#- if options.bibnotes #]
     ,bibnotes
-    [# else #]
+    [# endif -#]
+    [#- if options.nobibnotes #]
     ,nobibnotes
     [# endif -#]
     [#- if doc.keywords #],showkeys[# endif -#]
