@@ -31,6 +31,7 @@ options:
   - id: draft
     type: boolean
     required: false
+    default: false
     description: Mark the document as draft.
   - id: preprint
     type: string
@@ -42,6 +43,7 @@ options:
   - id: linenumbers
     type: boolean
     required: false
+    default: false
     description: Number lines (requires lineno.sty)
   - id: superscriptaddress
     type: boolean
@@ -63,7 +65,7 @@ options:
     type: boolean
     required: false
     default: false
-    description: Does not sort authors into specific groups.
+    description: Grouping of authors into specific groups (see groupedaddress) is disabled.
   - id: runinaddress
     type: boolean
     required: false
@@ -100,7 +102,7 @@ options:
     default: false
     description: >-
       Specifies whether additional author information such as email or homepage
-      are put on the first page or at the st of the bibliography. For instance,
+      are put on the first page or at the start of the bibliography. For instance,
       the prb option puts all such footnotes at the start of the bibliography
       while the prl journal styles displays them on the first page. One can
       override a journal style’s default behavior by specifying explicitly the
@@ -112,7 +114,7 @@ options:
     default: false
     description: >-
       Specifies whether additional author information such as email or homepage
-      are put on the first page or at the st of the bibliography. For instance,
+      are put on the first page or at the start of the bibliography. For instance,
       the prb option puts all such footnotes at the start of the bibliography
       while the prl journal styles displays them on the first page. One can
       override a journal style’s default behavior by specifying explicitly the
@@ -121,13 +123,14 @@ options:
   - id: reprint
     type: boolean
     required: false
+    default: false
     description: >-
       Closely approximate a given journal’s style. Can be either single or
       two-column formatting depending on the journal.
   - id: footnote_title
     type: string
     required: false
-    description: A footnote to the article title
+    description: Adds a footnote to the article title.
   - id: styling
     type: choice
     description: >-
@@ -135,6 +138,7 @@ options:
       Physics (aip), American Association of Physicists in Medicine (aapm),
       Society of Rheology (sor)
     default: aps
+    required: true
     choices:
       - aps
       - aip
