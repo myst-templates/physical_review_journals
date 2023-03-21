@@ -55,14 +55,3 @@ This is a table of options the template provides based on the [REVTeX 4.2e](http
 | `aapm_journal_type`  | choice | mph | false |  Allows to choose the American Association of Physicists in Medicine journal type. The following choices are available:<ul><li>??? (mph)</li></ul>|
 | `sor_journal_type`  | choice | jor | false |  Allows to choose the Society of Rheology journal type. The following choices are available:<ul><li>Journal of Rheology (jor)</li></ul>|
 | `formatting`  | choice | onecolumn | false |  Allows to choose the type of column formatting (one- or two-column article). The following choices are available:<ul><li>onecolumn</li><li>twocolumn</li></ul>|
-
-## Open Issues
-
-- [ ] Fix warning when compiling PDF
-- [ ] Provide example article that uses all introduced new options
-- [ ] Is it possible to use `affiliations` under the document properties to introduce `altaffilations` in Physical Review Journals?
-- [ ] `frontmatterverbose` option's description needs clarification
-- [ ] `physrev` Journal name is unclear
-- [ ] There are still more journals at [AIP Publishing](https://aip.scitation.org) which we have not covered yet. What are their abbreviations?
-- [ ] `mph` name is unclear
-- [ ] There are still more journals at [AAPM](https://www.aapm.org/pubs/). What are there abbreviations?
