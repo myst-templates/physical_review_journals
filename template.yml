@@ -34,7 +34,12 @@ parts:
       Acknowledgements may not include a dedication or a memorial. Acknowledge
       positions, titles, and awards only if they provided funding for the
       research and state the source of financial funding in such cases. Noting
-      the date associated with an award is not appropriate
+      the date associated with an award is not appropriate.
+  - id: appendix
+    required: false
+    description: >
+      Appendices contain additional material needed to understand the article.
+      The appendix part can contain more than one section.
 doc:
   - id: authors
     required: true

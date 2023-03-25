@@ -120,6 +120,11 @@
 \end{acknowledgments}
 [# endif -#]
 
+[#- if parts.appendix #]
+\appendix
+[-parts.appendix-]
+[# endif -#]
+
 [#- if doc.bibliography #]
 \bibliography{[- doc.bibliography | join(", ") -]}
 [# endif -#]
