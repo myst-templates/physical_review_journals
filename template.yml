@@ -223,6 +223,15 @@ options:
     choices:
       - onecolumn
       - twocolumn
+  - id: paper_size
+    required: false
+    type: choice
+    description: Defines the size of the paper, i.e. height and width.
+    default: letterpaper
+    choices:
+      - letterpaper
+      - a4paper
+      - a5paper 
 files:
   - template.tex
   - revtex4-2.cls

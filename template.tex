@@ -61,6 +61,9 @@
     ,nobibnotes
     [# endif -#]
     [#- if doc.keywords #],showkeys[# endif -#]
+    [#- if options.paper_size #]
+    ,[-options.paper_size-]
+    [# endif -#]
 ]{revtex4-2}
 
 \usepackage{orcidlink}
