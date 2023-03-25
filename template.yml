@@ -19,6 +19,22 @@ parts:
       A good abstract will begin with a short description of the problem being
       addressed, briefly describe the new data or analyses, then briefly states
       the main conclusion(s) and how they are supported and uncertainties.
+  - id: acknowledgments
+    required: false
+    description: >
+      Acknowledgments are a simple statement of thanks that appears at the end
+      of a manuscript. They can recognize named individuals who contributed
+      scientifically to the research of the paper; cite the funding agencies
+      that provided financial support for the work; and note the affiliation of
+      institutions in the byline. Acknowledgments to people precede those of
+      financial support. Acknowledgments may not recognize those who helped in
+      preparing the paper; editors who handled the peer review of the paper;
+      those who contributed general encouragement (family, friends); or those
+      who provided services that were not directly part of the research.
+      Acknowledgements may not include a dedication or a memorial. Acknowledge
+      positions, titles, and awards only if they provided funding for the
+      research and state the source of financial funding in such cases. Noting
+      the date associated with an award is not appropriate
 doc:
   - id: authors
     required: true
@@ -102,24 +118,24 @@ options:
     default: false
     description: >-
       Specifies whether additional author information such as email or homepage
-      are put on the first page or at the start of the bibliography. For instance,
-      the prb option puts all such footnotes at the start of the bibliography
-      while the prl journal styles displays them on the first page. One can
-      override a journal style’s default behavior by specifying explicitly the
-      class option bibnotes (puts the footnotes at the start of the
-      bibliography) or nobibnotes (puts them on the first page).
+      are put on the first page or at the start of the bibliography. For
+      instance, the prb option puts all such footnotes at the start of the
+      bibliography while the prl journal styles displays them on the first page.
+      One can override a journal style’s default behavior by specifying
+      explicitly the class option bibnotes (puts the footnotes at the start of
+      the bibliography) or nobibnotes (puts them on the first page).
   - id: nobibnotes
     type: boolean
     required: false
     default: false
     description: >-
       Specifies whether additional author information such as email or homepage
-      are put on the first page or at the start of the bibliography. For instance,
-      the prb option puts all such footnotes at the start of the bibliography
-      while the prl journal styles displays them on the first page. One can
-      override a journal style’s default behavior by specifying explicitly the
-      class option bibnotes (puts the footnotes at the start of the
-      bibliography) or nobibnotes (puts them on the first page).
+      are put on the first page or at the start of the bibliography. For
+      instance, the prb option puts all such footnotes at the start of the
+      bibliography while the prl journal styles displays them on the first page.
+      One can override a journal style’s default behavior by specifying
+      explicitly the class option bibnotes (puts the footnotes at the start of
+      the bibliography) or nobibnotes (puts them on the first page).
   - id: reprint
     type: boolean
     required: false

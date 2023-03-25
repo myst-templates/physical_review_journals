@@ -114,6 +114,12 @@
 
 [-CONTENT-]
 
+[#- if parts.acknowledgments #]
+\begin{acknowledgments}
+[-parts.acknowledgments-]
+\end{acknowledgments}
+[# endif -#]
+
 [#- if doc.bibliography #]
 \bibliography{[- doc.bibliography | join(", ") -]}
 [# endif -#]
