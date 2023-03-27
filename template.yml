@@ -94,11 +94,6 @@ options:
     description: >-
       Like groupedaddress, but joins multiple affiliations together into a
       single sequence separated by commas.
-  - id: frontmatterverbose
-    type: boolean
-    required: false
-    default: false
-    description: More verbose display of authors and affiliations.
   - id: footinbib
     type: boolean
     required: false
