@@ -1,0 +1,36 @@
+# See docs at: https://myst-tools.org/docs/mystjs/frontmatter
+version: 1
+project:
+  title: Example title
+  description: This is an example article for an APS journal article.
+  keywords:
+    - Comic
+    - Walt Disney
+  authors:
+    - name: Bugs Bunny
+      orcid: 0000-0002-5591-9220
+      affiliations:
+        - Looney Tune Studios
+    - name: Roger Rabbit
+      corresponding: true
+      email: Roger.Rabbit@LooneyTuneStudios.com
+      affiliations:
+        -  Looney Tune Studios
+    - name: Mickey Mouse
+      affiliations:
+        - Disney World
+  github: https://github.com/dressedfez/myst_template_physical_review_journals
+  # bibliography: []
+  license: CC-BY-4.0
+site:
+  template: book-theme
+  # title:
+  # logo:
+  projects:
+    - slug: myst
+      path: .
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://myst-tools.org/docs/mystjs
+  domains: []
