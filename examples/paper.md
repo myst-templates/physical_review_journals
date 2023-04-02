@@ -52,11 +52,10 @@ pampineae rite non [](https://doi.org/10.1007/BF02650179).
 Ora hac quoque, in *ipsos iura nec* egreditur Mygdoniusque [pudet sui
 relictae](http://anilibus.net/) superata Festa animorum cum animos variat.
 Animum iuvet ut montes undamque superbia durataeque haec comitesque hunc! Niger
-ait postquam [Echidnaeae fovebam](http://tamen.org/cacuminaet), sed vimque,
+ait postquam [Echidnaeae fovebam](https://www.google.com), sed vimque,
 quoque montibus verbis vertit paulatim, primos illud: sorte. *Ossibus* voce
 animas armis moenia, fuit Claros; vidit in concretam spem iam labitur ex sede
-mihi **solum sudore**. Terga [progenies](http://fatale.org/in) collo
-spretarumque: poscor.
+mihi **solum sudore**. Terga progenies collo spretarumque: poscor.
 
 Ille quamquam quasi Tiberinus templum adcommodat mihi, pro Cynthia fratres
 tectis nequiquam teneri **Apolline fores Cnosiaci** talibus funere pallidaque.
@@ -72,8 +71,7 @@ enim trita, quoque ferro! Ab massa interdum tangit adfusique, dentibus.
 E=mc^2
 :::
 
-Accipiunt [](#emc2) acuta. Dixit [circumdata annis ditissimus](http://magno.org/si.php)
-Samos se ictu, illiusque ferrove rectior.
+Accipiunt [](#emc2) acuta. Dixit circumdata annis ditissimus. Samos se ictu, illiusque ferrove rectior.
 
 ## Tune ursos
 
@@ -89,7 +87,7 @@ Some random data
 
 
 Felicem locum fessos me Alcyonen est *sed*, debueram amplexu?
-[Molles](http://harenas-gerit.org/sit) dicentem eodem tempora et inquit
+Molles dicentem eodem tempora et inquit
 **viribus aequalibus** totos raptam secreta. Reperitur murmur.
 
 ## Sperchios quae circumspicit tamen monebat adsonat nisi
