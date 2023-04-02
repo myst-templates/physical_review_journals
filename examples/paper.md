@@ -3,7 +3,7 @@ title: Title
 short_title: Short title
 export:
   - format: pdf+tex
-    template: ../../.
+    template: ../.
     # The option below are defined in the template.yml.
     # They can be used to overwrite the default behavior.
     #draft: false
