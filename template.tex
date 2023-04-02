@@ -86,6 +86,10 @@
 \email{[-author.email-]}
 [# endif -#]
 
+[#- if author.website #]
+\homepage{[-author.website-]}
+[# endif -#]
+
 [#- if author.affiliations #]
 [#- for affiliation in author.affiliations -#]
 \affiliation{[-- affiliation.value --]}

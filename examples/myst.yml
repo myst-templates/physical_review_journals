@@ -14,11 +14,13 @@ project:
     - name: Roger Rabbit
       corresponding: true
       email: Roger.Rabbit@LooneyTuneStudios.com
+      website: https://www.looneytunestudio.com
       affiliations:
         -  Looney Tune Studios
     - name: Mickey Mouse
       affiliations:
         - Disney World
+      website: https://www.disneyworld.com
   github: https://github.com/dressedfez/myst_template_physical_review_journals
   # bibliography: []
   license: CC-BY-4.0
