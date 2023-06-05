@@ -11,6 +11,8 @@ project:
       orcid: 0000-0002-5591-9220
       affiliations:
         - Looney Tune Studios
+      collaborations:
+        - cool collaboration
     - name: Roger Rabbit
       corresponding: true
       email: Roger.Rabbit@LooneyTuneStudios.com

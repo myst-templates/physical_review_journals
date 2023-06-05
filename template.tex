@@ -95,6 +95,12 @@
 \affiliation{[-- affiliation.value --]}
 [#- endfor -#]
 [# endif -#]
+
+[#- if author.collaborations #]
+[#- for collaboration in author.collaborations -#]
+\collaboration{[-- collaboration.value --]}\noaffiliation
+[#- endfor -#]
+[# endif -#]
 [#- endfor -#]
 
 [#- if doc.date #]
