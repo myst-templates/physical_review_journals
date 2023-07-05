@@ -1,6 +1,22 @@
 ---
 title: Title
 short_title: Short title
+authors:
+  - name: Jane Doe
+    affiliations:
+      - University A
+      - Institute B
+    corresponding: true
+    email: jane@myweb.com
+    website: https://myweb.com
+  - name: John Dee
+    affiliations:
+      - Institute B
+      - Place C
+keywords:
+  - keyword1
+  - keyword2
+  - keyword3
 export:
   - format: pdf+tex
     template: ../.
@@ -22,13 +38,14 @@ export:
     styling: aps
     aps_journal_type: prl
     # the aip_journal_type only is used when styling is aip
-    # aip_journal_type: apl 
+    # aip_journal_type: apl
     # the aapm_journal_type only is used when styling is aip
-    # aapm_journal_type: mph 
+    # aapm_journal_type: mph
     # the sor_journal_type only is used when styling is sor
     # sor_journal_type: jor
     formatting: twocolumn
     paper_size: a4paper
+    linenumbers: true
 ---
 
 +++ {"part": "abstract"}
@@ -49,17 +66,17 @@ pampineae rite non [](https://doi.org/10.1007/BF02650179).
 
 ## Ibis hoc ultra tulit Mygdoniusque caeli concutiens
 
-Ora hac quoque, in *ipsos iura nec* egreditur Mygdoniusque [pudet sui
+Ora hac quoque, in _ipsos iura nec_ egreditur Mygdoniusque [pudet sui
 relictae](http://anilibus.net/) superata Festa animorum cum animos variat.
 Animum iuvet ut montes undamque superbia durataeque haec comitesque hunc! Niger
 ait postquam [Echidnaeae fovebam](https://www.google.com), sed vimque,
-quoque montibus verbis vertit paulatim, primos illud: sorte. *Ossibus* voce
+quoque montibus verbis vertit paulatim, primos illud: sorte. _Ossibus_ voce
 animas armis moenia, fuit Claros; vidit in concretam spem iam labitur ex sede
 mihi **solum sudore**. Terga progenies collo spretarumque: poscor.
 
 Ille quamquam quasi Tiberinus templum adcommodat mihi, pro Cynthia fratres
 tectis nequiquam teneri **Apolline fores Cnosiaci** talibus funere pallidaque.
-Tantum *inde osque* finxit egesto.
+Tantum _inde osque_ finxit egesto.
 
 ## Gladio famulumque manus resupinus illius
 
@@ -75,7 +92,7 @@ Accipiunt [](#emc2) acuta. Dixit circumdata annis ditissimus. Samos se ictu, ill
 
 ## Tune ursos
 
-Acutae *regni rerum*. Nec septem pudoris saxo potior nimbosi, et lata frenis
+Acutae _regni rerum_. Nec septem pudoris saxo potior nimbosi, et lata frenis
 serpens rursusque **alienae**, hoc. Et membris cessantem facinus tigno. Non
 meae, pumice bellum reddita, quod vultusque gestu misi! Aut circo!
 
@@ -85,8 +102,7 @@ meae, pumice bellum reddita, quod vultusque gestu misi! Aut circo!
 Some random data
 :::
 
-
-Felicem locum fessos me Alcyonen est *sed*, debueram amplexu?
+Felicem locum fessos me Alcyonen est _sed_, debueram amplexu?
 Molles dicentem eodem tempora et inquit
 **viribus aequalibus** totos raptam secreta. Reperitur murmur.
 
@@ -107,17 +123,17 @@ inclinatoque decimum enim non tenax ut dinumerat, sole [](https://doi.org/10.217
 - Qualescumque atque
 - In germanam aeratis
 
-*Quotiensque* incubat esse tendentem audito, Aurora ratione cupit refoventque
+_Quotiensque_ incubat esse tendentem audito, Aurora ratione cupit refoventque
 locis antemnas neve, idonea quae. **Ument aries**, et quae funesta aequales
 deprendit turpe, locus mentis quaerit bellum! Bonis cernis quoniam in parente
-ipse incurrere e habemus amoris animalia urbesque senes, maius *lupi tauros*
+ipse incurrere e habemus amoris animalia urbesque senes, maius _lupi tauros_
 operatus advehar ferro! Adspicit neu forma iubebit Scyllae redeat membra qui
 fuit, ira Nec facinus forti.
 
 +++ {"part": "acknowledgments"}
 
 The Lorem Markdownum for this example was generated using https://jaspervdj.be/lorem-markdownum/.
-The graphic in [](#test-fig1) are created using the Matplotlib example that can be found 
+The graphic in [](#test-fig1) are created using the Matplotlib example that can be found
 [here](https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_hist.html#sphx-glr-gallery-lines-bars-and-markers-scatter-hist-py).
 
 +++

@@ -12,6 +12,7 @@ authors:
       - 'no'
 tags:
   - paper
+  - two-column
 parts:
   - id: abstract
     required: true
@@ -101,7 +102,7 @@ options:
     description: >-
       The footnote text can either appear at the bottom of a page or as part of
       the bibliography. This option results it in only showing up in the
-      bibliography. This can be used to override  the default behavior of the
+      bibliography. This can be used to override the default behavior of the
       journal.
   - id: nofootinbib
     type: boolean
