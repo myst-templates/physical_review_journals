@@ -1,66 +1,65 @@
 
-\documentclass[
-    amsmath,amssymb
-    [#- if options.styling == "aps"#], aps
-    [#- if options.aps_journal_type #]
+\documentclass[amsmath,amssymb
+    [#- if options.styling == "aps" -#], aps
+    [#- if options.aps_journal_type -#]
     ,[-options.aps_journal_type-]
-    [# endif -#]
+    [#- endif -#]
     [# endif -#]
     [#- if options.styling == "aip"#], aip
-    [#- if options.aip_journal_type #]
+    [#- if options.aip_journal_type -#]
     ,[-options.aip_journal_type-]
-    [# endif -#]
-    [# endif -#]
-    [#- if options.styling == "aapm"#], aapm
-    [#- if options.aapm_journal_type #]
+    [#- endif -#]
+    [#- endif -#]
+    [#- if options.styling == "aapm" -#], aapm
+    [#- if options.aapm_journal_type -#]
     ,[-options.aapm_journal_type-]
-    [# endif -#]
-    [# endif -#]
-    [#- if options.styling == "sor"#], sor
-    [#- if options.sor_journal_type #]
+    [#- endif -#]
+    [#- endif -#]
+    [#- if options.styling == "sor" -#], sor
+    [#- if options.sor_journal_type -#]
     ,[-options.sor_journal_type-]
-    [# endif -#]
-    [# endif -#]
-    [#- if options.formatting #]
+    [#- endif -#]
+    [#- endif -#]
+    [#- if options.formatting -#]
     ,[-options.formatting-]
-    [# endif -#]
-    [#- if options.draft #],preprint
-    [# endif -#]
-    [#- if options.reprint #],reprint
-    [# endif -#]
-    [#- if options.preprint #],preprintnumbers
-    [# endif -#]
-    [#- if options.linenumbers #]
+    [#- endif -#]
+    [#- if options.draft -#],preprint
+    [#- endif -#]
+    [#- if options.reprint -#],reprint
+    [#- endif -#]
+    [#- if options.preprint -#],preprintnumbers
+    [#- endif -#]
+    [#- if options.linenumbers -#]
     ,linenumbers
-    [# endif -#]
-    [#- if options.superscriptaddress #]
+    [#- endif -#]
+    [#- if options.superscriptaddress -#]
     ,superscriptaddress
-    [# endif -#]
-    [#- if options.groupedaddress #]
+    [#- endif -#]
+    [#- if options.groupedaddress -#]
     ,groupedaddress
-    [# endif -#]
-    [#- if options.unsortedaddress #]
+    [#- endif -#]
+    [#- if options.unsortedaddress -#]
     ,unsortedaddress
-    [# endif -#]
-    [#- if options.runinaddress #]
+    [#- endif -#]
+    [#- if options.runinaddress -#]
     ,runinaddress
-    [# endif -#]
-    [#- if options.footinbib #]
+    [#- endif -#]
+    [#- if options.footinbib -#]
     ,footinbib
-    [# endif -#]
-    [#- if options.nofootinbib #]
+    [#- endif -#]
+    [#- if options.nofootinbib -#]
     ,nofootinbib
-    [# endif -#]
-    [#- if options.bibnotes #]
+    [#- endif -#]
+    [#- if options.bibnotes -#]
     ,bibnotes
-    [# endif -#]
-    [#- if options.nobibnotes #]
+    [#- endif -#]
+    [#- if options.nobibnotes -#]
     ,nobibnotes
-    [# endif -#]
-    [#- if doc.keywords #],showkeys[# endif -#]
-    [#- if options.paper_size #]
+    [#- endif -#]
+    [#- if doc.keywords #],showkeys[#- endif -#]
+    [#- if options.paper_size -#]
     ,[-options.paper_size-]
-    [# endif -#]
+    [#- endif -#]
 ]{revtex4-2}
 
 \usepackage{orcidlink}
