@@ -10,22 +10,29 @@ project:
     - name: Bugs Bunny
       orcid: 0000-0002-5591-9220
       affiliations:
-        - Looney Tune Studios
-      collaborations:
-        - cool collaboration
+        - lts
+        - cc
     - name: Roger Rabbit
       corresponding: true
       email: Roger.Rabbit@LooneyTuneStudios.com
       website: https://www.looneytunestudio.com
       affiliations:
-        -  Looney Tune Studios
+        - lts
     - name: Mickey Mouse
       affiliations:
-        - Disney World
+        - dw
       website: https://www.disneyworld.com
   github: https://github.com/dressedfez/myst_template_physical_review_journals
   # bibliography: []
   license: CC-BY-4.0
+  affiliations:
+    - id: lts
+      name: Looney Tune Studios
+    - id: dw
+      name: Disney World
+    - id: cc
+      name: cool collaboration
+      collaboration: true
 site:
   template: book-theme
   # title:
