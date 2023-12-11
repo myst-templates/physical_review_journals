@@ -228,6 +228,12 @@ options:
       - letterpaper
       - a4paper
       - a5paper
+  - id: aip_disable_corresponding_author_after_affiliations
+    required: false
+    type: boolean
+    default: true
+    description: >-
+      If set to false, the email of the corresponding author of an AIP journal will not be shown after the affiliations.
 files:
   - template.tex
   - revtex4-2.cls
